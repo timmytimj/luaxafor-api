@@ -45,7 +45,7 @@ Don't forget to give the project a star, smash that 🔕 like and subscribe kthx
 [discord-link]: https://onbydefault.com/
 [discord-logo]: https://cdn3.emoji.gg/emojis/9430-discord-icon.png?width=25&height=25
 [license-shield]: https://img.shields.io/github/license/timmytimj/luxafor-api.svg?style=for-the-badge
-[license-url]: LICENSE.txt
+[license-url]: ./LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/timothy-johnston-eea/
 [product-screenshot]: images/screenshot.png
