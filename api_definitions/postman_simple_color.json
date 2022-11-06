@@ -1,0 +1,52 @@
+{
+  "info": {
+    "name": "Untitled Paw Document 2",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Simple Color",
+      "request": {
+        "method": "POST",
+        "url": {
+          "raw": "https://api.luxafor.com/webhook/v1/actions/solid_color",
+          "query": null,
+          "protocol": "https",
+          "host": [
+            "api",
+            "luxafor",
+            "com"
+          ],
+          "port": null,
+          "path": [
+            "webhook",
+            "v1",
+            "actions",
+            "solid_color"
+          ]
+        },
+        "description": "Luxafor simple color webhook",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json",
+            "disabled": false,
+            "description": null
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "disabled": false,
+          "raw": "{\"userId\":\"\",\"actionFields\":{\"color\":\"\"}}"
+        },
+        "auth": null
+      },
+      "protocolProfileBehavior": {
+        "followRedirects": false,
+        "followOriginalHttpMethod": false,
+        "followAuthorizationHeader": false
+      },
+      "response": []
+    }
+  ]
+}

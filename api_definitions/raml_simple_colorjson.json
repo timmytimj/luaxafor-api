@@ -1,0 +1,16 @@
+#%RAML 1.0
+title: Untitled Paw Document 2
+version: v0.0.0
+baseUri: 'https://api.luxafor.com/'
+protocols:
+  - HTTPS
+types: {}
+/v1:
+  /actions:
+    /solid_color:
+      uriParameters: {}
+      POST:
+        displayName: Simple Color
+        description: Luxafor simple color webhook
+        body:
+          type: string
